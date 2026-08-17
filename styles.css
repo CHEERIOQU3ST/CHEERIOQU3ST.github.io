@@ -1,0 +1,29 @@
+.thick {
+    font-size:20px;
+}
+.center-text {
+    text-align: center;
+}
+.red {
+    color: red;
+}
+.green {
+    color:green
+}
+.offwhite {
+    color:antiquewhite
+}
+
+h1 {
+    color: white;
+}
+h2 {
+    color:blanchedalmond
+}
+
+p {
+    color: antiquewhite;
+}
+a {
+    color: lavender;
+}
