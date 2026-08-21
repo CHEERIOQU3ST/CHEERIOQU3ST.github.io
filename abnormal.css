@@ -1,0 +1,59 @@
+.thick {
+    font-size:20px;
+}
+.center-text {
+    text-align: center;
+}
+.red {
+    color: red;
+}
+.green {
+    color:green
+}
+.offwhite {
+    color:antiquewhite
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  height: 45%;
+}
+
+
+h1 {
+    color: white;
+}
+h2 {
+    color:blanchedalmond
+}
+
+p {
+    color: antiquewhite;
+}
+a {
+    color: lavender;
+}
+
+body {
+         
+         min-height: 100vh;
+         margin: 0;
+      }
+
+footer {
+         background-color: #333;
+         color: #fff;
+         text-align: center;
+         padding: 20px 0;
+      }
+footer .social-media a {
+         color: #fff;
+         margin: 0 10px;
+         text-decoration: none;
+      }
+footer .social-media a:hover {
+         color: #ddd;
+      }
