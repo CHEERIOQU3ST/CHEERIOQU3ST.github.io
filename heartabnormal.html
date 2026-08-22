@@ -17,9 +17,8 @@
                 background-repeat: no-repeat;
                 background-size: 13%;
                 min-height: 150px;
-                padding: 20px 0;
+                padding: 1% 0;
                 padding-left: 350px;
-                margin: 10px 0;
             }
             body {
                 background-image: url('images/abnormal/background.gif');
@@ -29,10 +28,10 @@
                 background-image: url('images/abnormal/bg.png');
                 background-color: rgb(25, 33, 66);
                 margin: 10px 0;
-                padding-top: 50px;
-                padding-left: 150px;
-                padding-right: 150px;
-                padding-bottom: 200px;
+                padding-top: 2%;
+                padding-left: 10%;
+                padding-right: 10%;
+                padding-bottom: 15%;
             }
             footer {
                 background-color: black;
@@ -56,7 +55,8 @@
                 }
 
                 ul li a:hover {
-                background-color: #111111;
+                background-color: white;
+                color: black;
             }
             #borderimg { 
                 border: 10px solid transparent;
@@ -77,8 +77,8 @@
 
             #borderimg-left  {
                 float: left;    
-                margin: 0 15px 0 0;
-                margin-left: 10%;
+                margin: 0 7% 0 0;
+                margin-left: 7%;
                 margin-right: 3%;
                 width: 20%;
                 height: 20%;
@@ -99,6 +99,9 @@
                 padding: 0px;
                 border-image: url('images/abnormal/border.png') 20% round;
                 border-image-outset: 10px;
+            }
+            .container {
+                display:flexbox;
             }
             
         </style>
@@ -137,19 +140,62 @@
                 </nav>
             </div>
         </header>
-        <hr>
-        <img class="center" src="images/abnormal/title.png" alt="CAVE STORY ~ HEART ABNORMAL" width="720" height="240" style="padding-top: 5%; padding-bottom: 2%;"/>
 
-        <article id="borderimg" style="margin: 70px; margin-left: 20%; margin-right: 20%;">      
+        <div class="container" style="padding-left: 15%; padding-top: 2%; padding-right: 18%;">
+            <div>
+                <nav id="borderimg" style=" margin-left: 1%; float: left; padding: 1%; padding-right: 9%; margin-top: 10%; background-color: rgb(234, 25, 62); width: 6%;">
 
-            <h1 style="text-align: center; color: coral;">It's the middle of December, yet The Island's only getting warmer...</h1>
-            <p style="text-align: center;">An UNOFFICIAL VOCALOiD-inspired <a href="https://www.cavestory.one/">Cave Story</a> sequel mod. </p>
+                    <h1 style="color: white; text-align: center;">GLOSSARY</h1>
+                    <hr>
+                    <ul style="display:inline-block; background-color: transparent; padding-left: 57%;">
+                        <li>
+                        <a href="https://rubylune.ca/index.html">
+                            ABOUT
+                        </a>
+                        </li>
+                        <li>
+                        <a href="#">
+                            NEWS
+                        </a>
+                        </li>
+                        <li>
+                        <a href="#">
+                            idk
+                        </a>
+                        </li>
+                        <li>
+                        <a href="#">
+                            idk
+                        </a></li>
+                        <li>
+                        <a href="#">
+                            idk
+                        </a>
+                        </li>
+                    </ul>
 
-            <img id="borderimg" class="center" src="images/abnormal/Abnormal.gif" alt="CAVE STORY ~ HEART ABNORMAL" width="640" height="480" border="3"/>
-            <a href="https://doukutsuclub.knack.com/database#my-mods/mod-details/6a08d03130bcf7d78da79ccd/profile/5b2f464d3fe304325c0c820b/mod-details/6896e446689d2502fc08eb88/" width="10%"><button class="csbutton" style="margin-left: 42%; margin-top: 1%; margin-bottom: 1%;"> DOWNLOAD DEMO</button></a>
-            
-            
-            <h1 style="text-align: center; color: coral; margin-bottom: 3%;"> ABOUT</h1>
+                </nav>
+            </div>
+            <div>
+                <main id="borderimg" style=" margin-left: 21%; background-color: rgb(25, 33, 66); width: 80%;">
+
+                    <img class="center" src="images/abnormal/title.png" alt="CAVE STORY ~ HEART ABNORMAL" width="720" height="240" style="padding-top: 5%; padding-bottom: 2%;"/>
+                    
+                    <h1 style="text-align: center; color: coral; text-shadow: 0 0 3px #ff0000;">It's the middle of December, yet The Island's only getting warmer...</h1>
+                    <p style="text-align: center;">An UNOFFICIAL VOCALOiD-inspired <a href="https://www.cavestory.one/">Cave Story</a> sequel mod. </p>
+
+                    <img id="borderimg" class="center" src="images/abnormal/Abnormal.gif" alt="CAVE STORY ~ HEART ABNORMAL" width="640" height="480" border="3"/>
+                    <a href="https://doukutsuclub.knack.com/database#my-mods/mod-details/6a08d03130bcf7d78da79ccd/profile/5b2f464d3fe304325c0c820b/mod-details/6896e446689d2502fc08eb88/" width="13%"><button class="csbutton" style="width: 22%; margin-left: 39%; margin-top: 3%; margin-bottom: 3%;"> DOWNLOAD DEMO</button></a>
+                    
+
+                </main>
+            </div>
+        </div>
+
+        <h1 id="borderimg" style="text-align: center; color: white; margin-bottom: 3%; background-color: rgb(234, 25, 62); margin: 2% 25% 2% 25%"> ABOUT</h1>
+
+        <article id="borderimg" style="margin: 2%; margin-left: 15%; margin-right: 15%; padding-top: 3%; padding-right: 3%; padding-left: 3%;">      
+        
 
             <img id="borderimg-left" src="images/abnormal/placeholder.png"/>
                 <h2 style="color: coral;">A BRAND NEW STORY</h2>
@@ -158,10 +204,10 @@
                     the floating island has been getting progressivly warmer. After nobody in her family believes her, she tells you she's sneaking out with the sky dragon that night to pick you up
                     and head to the island.
                 </p>
-                <p style="color: whitesmoke; margin-bottom: 3%;">The cause of the thermal anomally is unknown, but together the two of you set out to solve and subdue to heat. But upon arriving at the island,
+                <p style="color: whitesmoke; margin-bottom: 1%;">The cause of the thermal anomally is unknown, but together the two of you set out to solve and subdue to heat. But upon arriving at the island,
                     you're both immedietly attacked and ransacked by a mysterious golden toad. In unfamiliar territory, it's up to you to uncover the island's burning secrets.
                 </p>
-                <p style="color: whitesmoke; margin-bottom: 6%;">But in trying, you may find the awnser lies deeper within, and that the island still has many dark secrets left untold...
+                <p style="color: whitesmoke; margin-bottom: 6%; margin-left: 31%;">But in trying, you may find the awnser lies deeper within, and that the island still has many dark secrets left untold...
                 </p>
 
             <img id="borderimg-right" src="images/abnormal/placeholder.png"/>
@@ -190,8 +236,6 @@
 
 
         </article>
-
-
 
         <footer>
             <p>© 
